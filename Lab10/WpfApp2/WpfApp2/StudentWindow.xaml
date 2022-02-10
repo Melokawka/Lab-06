@@ -1,0 +1,61 @@
+﻿<Window x:Class="WpfApp2.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Student Edit" Height="450" Width="380">
+    <Grid HorizontalAlignment="Center" Width="380">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="149*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Ok" Grid.Column="1" HorizontalAlignment="Left" Margin="121,327,0,0" VerticalAlignment="Top" Height="51" Width="108" RenderTransformOrigin="1.457,1.022" Click="Button_Click"/>
+        <TextBox x:Name="tbImie" Grid.Column="1" HorizontalAlignment="Left" Margin="100,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" RenderTransformOrigin="0.5,0.5" Height="28">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="tbNazwisko" Grid.Column="1" HorizontalAlignment="Left" Margin="100,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" RenderTransformOrigin="0.5,0.5" Height="28">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="tbNrAlbumu" Grid.Column="1" HorizontalAlignment="Left" Margin="100,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" RenderTransformOrigin="0.5,0.5" Height="28">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="tbWydzial" Grid.Column="1" HorizontalAlignment="Left" Margin="100,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" RenderTransformOrigin="0.5,0.5" Height="28">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.537"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="imię:" HorizontalAlignment="Left" Margin="0,58,0,0" VerticalAlignment="Top" Width="34" Grid.Column="1"/>
+        <Label Content="nazwisko:" HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top" Width="59" Grid.Column="1"/>
+        <Label Content="numer albumu:" HorizontalAlignment="Left" Margin="0,180,0,0" VerticalAlignment="Top" Width="89" Grid.Column="1"/>
+        <Label Content="wydział:" HorizontalAlignment="Left" Margin="0,239,0,0" VerticalAlignment="Top" Width="59" Grid.Column="1"/>
+
+    </Grid>
+</Window>
